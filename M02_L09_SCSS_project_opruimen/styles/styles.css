@@ -1,0 +1,16 @@
+body {
+  color: #090b08;
+}
+
+a {
+  color: #090b08;
+}
+
+.header--brand-logo {
+  background-color: #c0eea9;
+}
+
+.hero, .featured, .about {
+  padding: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,31 @@
+$textColor: #090b08;
+$backgroundColor:  #c0eea9;
+$borderColor: #000;
+$standardPadding:  0.5em 1.5em;
+
+
+
+body {
+  color: $textColor;
+}
+a {
+  color: $textColor;
+}
+    
+.header--brand-logo { 
+  background-color:$backgroundColor;
+}
+
+.btn {
+  border-color:$borderColoR ;
+  padding:$standardPadding;
+}
+
+
+@mixin padding {
+  padding: 20px;
+}
+
+.hero, .featured, .about {
+@include padding();
+}
